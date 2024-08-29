@@ -28,6 +28,7 @@ class HiveDatabase {
       await eventDb.clear();
       await eventDb.close();
     } catch (e) {
+      log('Error deleting event: $e');
     }
   }
 }

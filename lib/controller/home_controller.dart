@@ -19,10 +19,10 @@ class HomeController with ChangeNotifier {
   Future<void> addEvent(
     String title, DateTime startTime, DateTime endTime, String repeatOption) async {
     
-    final Color dayColor = Colors.blue;
-    final Color weekColor = Colors.orange;
-    final Color biweekColor = Colors.pink;
-    final Color monthColor = Colors.red;
+    const Color dayColor = Colors.blue;
+    const Color weekColor = Colors.orange;
+    const Color biweekColor = Colors.pink;
+    const Color monthColor = Colors.red;
 
     List<EventModel> newEvents = [];
 
